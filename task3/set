@@ -1,0 +1,11 @@
+set disassembly-flavor intel
+b _start
+r
+disp $eax
+disp $ebx
+disp $ecx
+disp $edx
+disp $edi
+disp $esi
+x/10i $eip
+
